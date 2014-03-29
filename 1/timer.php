@@ -3,7 +3,7 @@ date_default_timezone_set("Asia/Shanghai");
 class Together{
 	public static $begin;
 	public static function getTogetherTime(){
-		self::$begin = strtotime('2013-02-18 20:30');
+		self::$begin = strtotime('2014-02-18 20:30');
 		$now = time();
 		$timeSecond = $now - self::$begin;
 		return array(
